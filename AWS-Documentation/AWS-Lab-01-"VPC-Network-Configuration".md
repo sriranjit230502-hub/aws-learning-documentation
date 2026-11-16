@@ -8,15 +8,22 @@ Create VPC tsk-140726 manually with IPv4 CIDR range 32.0.0.0\16.
 
 
 
+
 **Step 2**
 
 Create four Subnets - two public subnets tsk-public-subnet-001 & tsk-public-subnet-002 and two private subnets tsk-private-subnet-001 & tsk-private-subnet-002 , with IPv4 CIDR ranges 32.0.1.0/24 , 32.0.3.0/24 for public subnets and 32.0.2.0/24 , 32.0.4.0/24 for private subnets respectively for the VPC created.
+
+<img width="1920" height="1001" alt="002-tsk-140726-subnets-pub priv-created" src="https://github.com/user-attachments/assets/1caf7ece-388f-494e-917b-8c927e410a0b" />
 
 
 
 **Step 3**
 
 Create Route Tables tsk-public-rt & tsk-private-rt each for public private subnets respectively for the VPC created.
+
+
+<img width="1920" height="1001" alt="003-tsk-160726-intgw-created" src="https://github.com/user-attachments/assets/be3d4179-5146-4e59-b761-d0a0e1a3be77" />
+
 
 
 
