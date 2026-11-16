@@ -122,7 +122,8 @@ Click the checkbox of private route table tsk-private-rt in “Route tables” s
 
 
 
-Step 13
+**Step 13**
+
 Then click “create endpoint”. Thus  VPC Endpoint tsk-endpt-160726 is created.
 
 
