@@ -22,7 +22,9 @@ Create four Subnets - two public subnets tsk-public-subnet-001 & tsk-public-subn
 Create Route Tables tsk-public-rt & tsk-private-rt each for public private subnets respectively for the VPC created.
 
 
-<img width="1920" height="1001" alt="003-tsk-160726-intgw-created" src="https://github.com/user-attachments/assets/be3d4179-5146-4e59-b761-d0a0e1a3be77" />
+<img width="1920" height="1001" alt="005-tsk-160726-rt-pub priv-created" src="https://github.com/user-attachments/assets/850a5987-3221-48d8-ae02-0c6ee3e2f79e" />
+
+
 
 
 
@@ -32,6 +34,7 @@ Create Route Tables tsk-public-rt & tsk-private-rt each for public private subne
 Create Internet gateway tsk-int-gtw-public for the VPC created.
 
 
+<img width="1920" height="1001" alt="003-tsk-160726-intgw-created" src="https://github.com/user-attachments/assets/be3d4179-5146-4e59-b761-d0a0e1a3be77" />
 
 
 
@@ -41,6 +44,11 @@ Create Internet gateway tsk-int-gtw-public for the VPC created.
 
 Attach the internet gateway to the VPC created. 
 
+
+<img width="1920" height="1001" alt="004-tsk-160726-igw-attached-to-vpc" src="https://github.com/user-attachments/assets/ff635007-f8d5-4749-857b-3ddb5c5b1d34" />
+
+<img width="1920" height="1001" alt="006-tsk-160726-pub-rt-igw-connect" src="https://github.com/user-attachments/assets/481ceaa7-9ad9-40e3-bd73-795962359785" />
+<img width="1920" height="1001" alt="006-tsk-160726-pub-rt-igw-connect" src="https://github.com/user-attachments/assets/7b53c2f6-bd79-48ff-aaa7-f97240837125" />
 
 
 
@@ -60,6 +68,14 @@ Attach the internet gateway to the VPC created.
 **Step 6**
 
 Connect the public route table tsk-public-rt to the internet gateway tsk-int-gtw-public for the VPC created and Do NOT Connect private route table to the internet gatway.
+
+
+
+<img width="1920" height="1001" alt="006-tsk-160726-pub-rt-igw-connect" src="https://github.com/user-attachments/assets/cb533e5a-6214-4159-a3d7-2306e9baeb9b" />
+
+
+<img width="1920" height="1001" alt="008-tsk-160726-priv-rt-NO-IGW" src="https://github.com/user-attachments/assets/66d9b7e9-958d-4bef-b7c7-b0b90f1dc74f" />
+
 
 
 
