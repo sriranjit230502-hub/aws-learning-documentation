@@ -4,6 +4,7 @@
 
 Create VPC tsk-140726 manually with IPv4 CIDR range 32.0.0.0\16.
 
+<img width="1920" height="1001" alt="001-tsk-140726-vpc-created" src="https://github.com/user-attachments/assets/eb7e086d-1df1-4e70-b183-d5c3f7c00c5f" />
 
 
 
