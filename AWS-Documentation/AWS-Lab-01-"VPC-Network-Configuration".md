@@ -49,19 +49,6 @@ Attach the internet gateway to the VPC created.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 **Step 6**
 
 Connect the public route table tsk-public-rt to the internet gateway tsk-int-gtw-public for the VPC created and Do NOT Connect private route table to the internet gatway.
@@ -89,21 +76,24 @@ And associate private subnets tsk-private-subnet-001 & tsk-private-subnet-002 wi
 
 
 
-Step 8 
+**Step 8**
+
 VPC tsk-140726 manually created with public and private subnets tsk-public-subnet-001 & tsk-public-subnet-002 and tsk-private-subnet-001 & tsk-private-subnet-002 attached  the route tables tsk-public-rt & tsk-private-rt and connect public route table tsk-public-rt with internet gateway tsk-int-gtw-public.
 
 
 
 
-AWS VPC endpoint creation for the VPC “tsk-140726”
+### AWS VPC endpoint creation for the VPC “tsk-140726”
 
-Step 9
+**Step 9**
+
 Navigate into the “create endpoint” window, name the endpoint tsk-endpt-160726 and click AWS services in Type. Leave the service region unticked.
 
  
 
 
-Step 10
+**Step 10**
+
 Search S3 in the search bar under services. Choose com.amazonaws.ap-south-2.s3 from search results. Then select gateway type .
 
 
@@ -116,14 +106,16 @@ Search S3 in the search bar under services. Choose com.amazonaws.ap-south-2.s3 f
 
 
 
-Step 11
+**Step 11**
+
 Select the VPC created tsk-160726 in the search bar under the “Networking settings” .
 
 
 
 
 
-Step 12
+**Step 12**
+
 Click the checkbox of private route table tsk-private-rt in “Route tables” section.
 
 
