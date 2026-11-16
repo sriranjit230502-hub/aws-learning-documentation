@@ -47,19 +47,6 @@ Attach the internet gateway to the VPC created.
 
 <img width="1920" height="1001" alt="004-tsk-160726-igw-attached-to-vpc" src="https://github.com/user-attachments/assets/ff635007-f8d5-4749-857b-3ddb5c5b1d34" />
 
-<img width="1920" height="1001" alt="006-tsk-160726-pub-rt-igw-connect" src="https://github.com/user-attachments/assets/481ceaa7-9ad9-40e3-bd73-795962359785" />
-<img width="1920" height="1001" alt="006-tsk-160726-pub-rt-igw-connect" src="https://github.com/user-attachments/assets/7b53c2f6-bd79-48ff-aaa7-f97240837125" />
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -92,6 +79,12 @@ Associate public subnets tsk-public-subnet-001 & tsk-public-subnet-002 with the 
 And associate private subnets tsk-private-subnet-001 & tsk-private-subnet-002 with the private route table tsk-private-rt.
 
 
+<img width="1920" height="1001" alt="007-tsk-160726-pub-rt-public-subnets-association" src="https://github.com/user-attachments/assets/23d04a5e-2f1f-4bcd-abe5-e0dfcf8b34b0" />
+
+<img width="1920" height="1001" alt="009-tsk-160726-priv-rt-priv-subnet-association" src="https://github.com/user-attachments/assets/1b42eecb-17c1-4b4b-86fa-a363183663dd" />
+
+
+
 
 
 
@@ -103,6 +96,11 @@ And associate private subnets tsk-private-subnet-001 & tsk-private-subnet-002 wi
 **Step 8**
 
 VPC tsk-140726 manually created with public and private subnets tsk-public-subnet-001 & tsk-public-subnet-002 and tsk-private-subnet-001 & tsk-private-subnet-002 attached  the route tables tsk-public-rt & tsk-private-rt and connect public route table tsk-public-rt with internet gateway tsk-int-gtw-public.
+
+
+<img width="1920" height="1001" alt="vpc-tsk-160726-resource-map" src="https://github.com/user-attachments/assets/5f47864e-7c90-4aa3-a2dd-d5607ce31d14" />
+
+
 
 
 
