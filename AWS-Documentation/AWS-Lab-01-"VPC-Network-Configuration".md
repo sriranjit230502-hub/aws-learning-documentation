@@ -111,6 +111,10 @@ VPC tsk-140726 manually created with public and private subnets tsk-public-subne
 
 Navigate into the “create endpoint” window, name the endpoint tsk-endpt-160726 and click AWS services in Type. Leave the service region unticked.
 
+<img width="1920" height="1001" alt="010-tsk-160726-endpoint -01-name type service-region" src="https://github.com/user-attachments/assets/6ecbebd6-037c-46e3-b6c6-e33145f96fc0" />
+
+
+
  
 
 
@@ -118,10 +122,12 @@ Navigate into the “create endpoint” window, name the endpoint tsk-endpt-1607
 
 Search S3 in the search bar under services. Choose com.amazonaws.ap-south-2.s3 from search results. Then select gateway type .
 
+<img width="1920" height="1001" alt="011-tsk-160726-endpoint-02-services-s3" src="https://github.com/user-attachments/assets/1c14f368-c277-4ca3-83bd-8cb93e517007" />
 
 
 
 
+<img width="1920" height="1001" alt="012-tsk-160726-endpoint-03-select-gateway" src="https://github.com/user-attachments/assets/2e7cc99f-e865-4695-b2ad-0a872b7b4e98" />
 
 
 
@@ -134,6 +140,9 @@ Select the VPC created tsk-160726 in the search bar under the “Networking sett
 
 
 
+<img width="1920" height="1001" alt="013-tsk-160726-endpoint-04-select-vpc-created" src="https://github.com/user-attachments/assets/28ab8e02-cb12-4627-9993-0810b178b10d" />
+
+
 
 
 **Step 12**
@@ -142,10 +151,20 @@ Click the checkbox of private route table tsk-private-rt in “Route tables” s
 
 
 
+<img width="1920" height="1001" alt="014-tsk-160726-endpoint-05-rt-attach-priv-rt" src="https://github.com/user-attachments/assets/1a32b238-5bae-46fe-9592-f2d158f59a13" />
 
 
 **Step 13**
 
 Then click “create endpoint”. Thus  VPC Endpoint tsk-endpt-160726 is created.
+
+<img width="1920" height="1001" alt="015-tsk-160726-endpoint-06-endpoint-created" src="https://github.com/user-attachments/assets/dcc48fbf-a45b-4699-aebd-55ab3525ff3e" />
+
+
+*** 
+
+## Architecture Diagram
+
+
 
 
