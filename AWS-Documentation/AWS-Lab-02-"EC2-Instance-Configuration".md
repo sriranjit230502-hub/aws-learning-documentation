@@ -167,24 +167,66 @@ Thus ‘Amazon Machine Image’ (AMI) of the instance ec2-210726 has been create
 
 Open the Linux terminal.
 
+<img width="1237" height="799" alt="01-ssh-open-open-terminal" src="https://github.com/user-attachments/assets/0ab15da9-7a96-4166-87e8-83469f1cce0b" />
+
+
+
 ### Step 2
 
 Note down the IPv4 public IP of the EC2 instance to SSH.
+
+<img width="1256" height="254" alt="02-ssh-aws-console-IP" src="https://github.com/user-attachments/assets/1fd16394-3b7f-4f3f-a6d0-c370e923941f" />
+
+
 
 ### Step 3
 
 Check the keypair 210726-ec2-key's file location, permission and note down the directory path of that file.
 
+<img width="1237" height="799" alt="03-ssh-pem-location-perm" src="https://github.com/user-attachments/assets/86e3313d-097d-41a9-a7dd-0493b871eb28" />
+
+
+
 ### Step 4
 
 Now SSH into the ec2 instance created in the format username@publicIP [ubuntu@16.112.191.150 here] along with the .pem key pair file path.
+
+<img width="1028" height="716" alt="04-ssh-command" src="https://github.com/user-attachments/assets/da951ea7-9040-424e-a935-d1423f66ca66" />
+
+
 
 ### Step 5
 
 Thus successfully connected to the AWS ec2 server created from our local machine's terminal using SSH. Now we can check file system storage, memory, list contents, etc from our local machine's terminal.
 
+<img width="1237" height="799" alt="05-ssh-filesys-mem-ll" src="https://github.com/user-attachments/assets/90aa7980-8372-4085-8f46-1e3127ae355b" />
+
+
+
 ---
 
 ## 5. Create a "Snapshot" of Ubuntu EC2 Instance's Volume
+
+### Step 1
+
+Navigate to the left side bar, under "Elastic Block Storage" lick "Volumes". Select the instance created volumne, click Actions, click "Create Snapshot".
+
+<img width="1101" height="432" alt="C-01-ec2-210726-snapshot-step01" src="https://github.com/user-attachments/assets/6ea39914-2980-45f1-b34c-8d3411889ea5" />
+
+
+### Step 2
+
+Under "Snapshot Details", give a short-form description, add a tag & value and click "Create Snapshot".
+
+<img width="1098" height="666" alt="C-02-ec2-210726-snapshot-step02" src="https://github.com/user-attachments/assets/f29a246c-0abc-479b-ba36-a0493fad2405" />
+
+
+### Step 3
+
+Thus the "Snapshot" of the Ubuntu EC2 instance created.
+
+<img width="1913" height="286" alt="C-03-ec2-210726-snapshot-step03" src="https://github.com/user-attachments/assets/5b885978-2ccd-43b2-ae0d-bf51350901e6" />
+
+
 
 
