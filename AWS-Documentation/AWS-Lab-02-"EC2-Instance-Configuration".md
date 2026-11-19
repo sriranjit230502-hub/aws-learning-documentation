@@ -119,3 +119,9 @@ Now SSH into the ec2 instance created in the format username@publicIP [ubuntu@16
 ### Step 5
 
 Thus successfully connected to the AWS ec2 server created from our local machine's terminal using SSH. Now we can check file system storage, memory, list contents, etc from our local machine's terminal.
+
+---
+
+## 5. Create a "Snapshot" of Ubuntu EC2 Instance's Volume
+
+
