@@ -7,6 +7,17 @@ Step 1
 
 Open and Login to AWS console, navigate to IAM service and create an IAM user group “devops-fita-wkday”. Name the group, Attach permission policy AdministratorAccess and click “create user group”.
 
+<img width="1321" height="357" alt="IAM-A-grp-01createGrp" src="https://github.com/user-attachments/assets/a6d819c1-b9ea-483f-993f-ef62fdd3c88b" />
+
+<img width="1312" height="395" alt="IAM-A-grp-02-GrpName" src="https://github.com/user-attachments/assets/ea5997c7-33bb-4679-abc3-4dc2a1fb49de" />
+
+<img width="1314" height="838" alt="IAM-A-grp-03-permPolicies" src="https://github.com/user-attachments/assets/a330c065-55dd-48d1-8026-7418dce3f405" />
+
+<img width="1325" height="272" alt="IAM-A-grp-04-grpCreatedSuccflly" src="https://github.com/user-attachments/assets/73e60ef5-2233-4f48-acaa-51b284573dbf" />
+
+
+
+
 Step 2
 
 Navigate to IAM users. Create an IAM user. Name the user, click the checkbox “Provide user access to AWS Management Console”, choose “Add user to group”, then select the IAM user group created, review and select “Create group”. Under “Retrieve Password”, click Download .csv file. This .csv file contains Username, password and Account ID of the IAM user.
