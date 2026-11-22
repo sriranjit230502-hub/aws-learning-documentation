@@ -7,6 +7,8 @@
 
 Log in to the AWS Console and open S3. Navigate to General Purpose Buckets. Click “Create Bucket”.
 
+ 
+
 ### Step 2
 
 Under Bucket namespaces, choose “Account Regional namespace”, name the bucket 3107-s3-gen-purp-bkt and select “ACLs enabled” & “Bucket owner preferred”.
