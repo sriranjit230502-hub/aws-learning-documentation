@@ -79,5 +79,26 @@ Also, after databases are created, the notifications show an “open to details�
 ### Step 6
 Provide the details copied from the databases to the TablePlus software installed and click test then connect for each database created with engine types MySQL and PostgreSQL respectively.
 
+<img width="918" height="616" alt="RDS-E01-mysql-01-table+" src="https://github.com/user-attachments/assets/13ec1087-4d97-44ad-85d2-2d5f87dddd6e" />
+
+<img width="1920" height="1080" alt="RDS-E01-mysql-02-table+" src="https://github.com/user-attachments/assets/09f678aa-79ce-473e-8de0-af404b94a062" />
+
+<img width="884" height="682" alt="RDS-E02-pgsql-01-table+" src="https://github.com/user-attachments/assets/296292ea-1f76-4e59-8916-47c793fec499" />
+
+<img width="1920" height="1050" alt="RDS-E02-pgsql-02-table+" src="https://github.com/user-attachments/assets/b018c048-8876-4bc3-a7ec-2bb3ffb0d9a6" />
+
+
 ### Step 7
 Taking a backup / Snapshot is a similar process for both the databases. Select database, click “Actions”, under it click “Take Snapshot”. Inside the Snapshot tab, select the database, provide a Snapshot name and click create Snapshot.
+
+<img width="1129" height="443" alt="RDS-F01-mysql-01-snapshot" src="https://github.com/user-attachments/assets/89ff9d07-7609-4ec1-be05-28e311c1b1b9" />
+
+<img width="1130" height="381" alt="RDS-F01-mysql-02-snapshot" src="https://github.com/user-attachments/assets/9422ee86-a1b2-460d-bde9-ff0314bbaf14" />
+
+<img width="1123" height="518" alt="RDS-F01-mysql-03-snapshot" src="https://github.com/user-attachments/assets/f04d7a34-9839-4698-bf0b-a718d72fc31f" />
+
+<img width="1133" height="452" alt="RDS-F02-pgsql-01-snapshot" src="https://github.com/user-attachments/assets/cb0d2401-1500-4cd1-93fc-e17e8936fd71" />
+
+<img width="1123" height="388" alt="RDS-F02-pgsql-02-snapshot" src="https://github.com/user-attachments/assets/84725ed5-669c-4c90-9b25-d19c278ca42a" />
+
+<img width="1127" height="457" alt="RDS-F03-pgsql-03-snapshot" src="https://github.com/user-attachments/assets/7e644b92-139e-42cc-922e-828e060e39a3" />
