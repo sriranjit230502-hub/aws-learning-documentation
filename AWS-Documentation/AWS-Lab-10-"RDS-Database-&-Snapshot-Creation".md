@@ -3,8 +3,20 @@
 ### Step 1
 Create a subnet group `rds-sbntgrp-010926`. Provide name, description, choose a VPC, and under VPC select the availability zones and public subnets.
 
+<img width="1110" height="1001" alt="RDS-A-sbntgrp-01" src="https://github.com/user-attachments/assets/3043a21e-0012-4ce2-b51f-f398fc0c38a5" />
+
+<img width="1133" height="1045" alt="RDS-A-sbntgrp-02" src="https://github.com/user-attachments/assets/8e8b87ec-aca7-47c4-9389-42b8fa9f7c95" />
+
+
 ### Step 2
 Similarly, create parameter groups for two separate databases with MySQL and PostgreSQL engine types respectively. Provide a name, description, select preferred engine type, parameter group family and click create.
+
+<img width="1131" height="340" alt="RDS-B00-pmtrgrp-01" src="https://github.com/user-attachments/assets/36564032-3cb7-4d23-9a6e-5eca31a3dec2" />
+
+<img width="1126" height="609" alt="RDS-B01-pmtrgrp-02-mysql" src="https://github.com/user-attachments/assets/34d406c2-9d42-42ff-8a5b-0af615fb813f" />
+
+<img width="1126" height="605" alt="RDS-B02-pmtrgrp-03-pgsql" src="https://github.com/user-attachments/assets/7e4f9a0e-520e-42de-98a8-010747b69ac3" />
+
 
 ### Step 3
 Now, create a database `database-mysql-010926`, with MySQL as engine type. Select MySQL, Single AZ DB as deployment option, engine latest version, instance identifier. Master username and configure password to be self-managed and auto-generated. Select `m5.large` as instance type, `gp3` as storage type, IPV4 as network type and choose the VPC.
