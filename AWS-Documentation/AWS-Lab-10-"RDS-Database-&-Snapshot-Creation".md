@@ -23,6 +23,23 @@ Now, create a database `database-mysql-010926`, with MySQL as engine type. Selec
 
 Select the subnet group created, grant public access, choose to create new security and provide a name for it. Then enable enhanced monitoring, select all options under log exports, and under Additional Configuration, provide an initial name for the database and choose the parameter group created for MySQL, then click create database.
 
+<img width="1133" height="1045" alt="RDS-C00-database-01" src="https://github.com/user-attachments/assets/cb3c3bf2-c064-4ff3-9cfe-cd71b4250c61" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-02-mysql" src="https://github.com/user-attachments/assets/d141fbd7-a0ff-4a74-952e-c837807916cc" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-03-mysql" src="https://github.com/user-attachments/assets/9e0c3d83-8afa-4575-854d-812f9393fc7f" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-04-mysql png" src="https://github.com/user-attachments/assets/f0eb8127-42ff-4a93-8869-5294f7f107be" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-05-mysql" src="https://github.com/user-attachments/assets/fb88edba-c5de-483e-aaa6-93bcfe375b27" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-06-mysql" src="https://github.com/user-attachments/assets/abeff4e4-860c-4a56-9837-d30546aeb99f" />
+
+<img width="1133" height="1045" alt="RDS-C01-database-07-mysql" src="https://github.com/user-attachments/assets/e409d7f0-2317-467f-8e5e-9b88858a405d" />
+
+<img width="1111" height="869" alt="RDS-C01-database-08-mysql" src="https://github.com/user-attachments/assets/4b358f67-1626-4e66-8084-cd9f52355331" />
+
+
 ### Step 4
 For PostgreSQL, similarly, select PostgreSQL as engine type and latest engine version. For the security group, create a new one and wherever name is needed, similarly provide unique names. Then when needed, select the parameter group created for PostgreSQL. Rest are same with MySQL database creation. Click create database.
 
