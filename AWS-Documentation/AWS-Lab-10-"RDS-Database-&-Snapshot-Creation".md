@@ -43,10 +43,38 @@ Select the subnet group created, grant public access, choose to create new secur
 ### Step 4
 For PostgreSQL, similarly, select PostgreSQL as engine type and latest engine version. For the security group, create a new one and wherever name is needed, similarly provide unique names. Then when needed, select the parameter group created for PostgreSQL. Rest are same with MySQL database creation. Click create database.
 
+<img width="1133" height="1045" alt="RDS-C00-database-01" src="https://github.com/user-attachments/assets/1c5f3ea2-434b-4897-9c86-40d62a901101" />
+
+<img width="1133" height="1045" alt="RDS-C02-database-09-pgsql" src="https://github.com/user-attachments/assets/13c3c0d8-1deb-452e-a67f-80932b67a5e7" />
+
+<img width="1133" height="1045" alt="RDS-C02-database-10-pgsql" src="https://github.com/user-attachments/assets/781f63ef-972d-46f3-bbae-1f5162d33ff8" />
+
+<img width="1133" height="1045" alt="RDS-C02-database-11-pgsql" src="https://github.com/user-attachments/assets/03400f8c-4a5e-49df-9c7c-8be6bab6cd26" />
+
+<img width="1133" height="1045" alt="RDS-C02-database-12-pgsql" src="https://github.com/user-attachments/assets/fa8bc60d-a963-4216-aa9e-8a135869e290" />
+
+<img width="1133" height="1045" alt="RDS-C02-database-13-pgsql" src="https://github.com/user-attachments/assets/cbcad733-3b8f-4d81-ab19-31efe20a3d69" />
+
+<img width="1084" height="446" alt="RDS-C02-database-14-pgsql" src="https://github.com/user-attachments/assets/048ff01f-38a6-4206-9865-ca4a19aa9d2b" />
+
+
 ### Step 5
 Under each database created respectively, edit the inbound rules with changing the source as “anywhere IPV4” and select Endpoint under “Connect using” heading in Connectivity & Security settings, again for both the databases. Copy Master username, port number, database name and endpoint respectively for both databases.
 
 Also, after databases are created, the notifications show an “open to details” option, click it and can copy the endpoint, Master username and password, but it's one time only.
+
+<img width="1133" height="1045" alt="RDS-D01-mysql-01-secgrp" src="https://github.com/user-attachments/assets/bd853601-7a5b-46c9-baf7-4a48d9614772" />
+
+<img width="1119" height="263" alt="RDS-D01-mysql-02-secgrp" src="https://github.com/user-attachments/assets/5ad804f0-858e-464a-8999-7ac3e22f7225" />
+
+<img width="1133" height="1045" alt="RDS-D01-mysql-03-endpt" src="https://github.com/user-attachments/assets/81d5de65-c6b3-47d4-a48a-72d720037d16" />
+
+<img width="1133" height="1045" alt="RDS-D02-pgsql-01-secgrp" src="https://github.com/user-attachments/assets/f37caaaf-515c-4a51-8d16-ebb4a628637a" />
+
+<img width="1126" height="262" alt="RDS-D02-pgsql-02-secgrp" src="https://github.com/user-attachments/assets/d9974cf0-ae1b-448f-8d51-65708905a29e" />
+
+<img width="1133" height="1045" alt="RDS-D02-pgsql-03-endpt" src="https://github.com/user-attachments/assets/a64e4c90-2905-4301-8fd9-eefeb06321f3" />
+
 
 ### Step 6
 Provide the details copied from the databases to the TablePlus software installed and click test then connect for each database created with engine types MySQL and PostgreSQL respectively.
