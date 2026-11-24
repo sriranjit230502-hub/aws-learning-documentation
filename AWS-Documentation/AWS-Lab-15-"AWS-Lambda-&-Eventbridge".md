@@ -72,4 +72,3 @@ Navigate to the lambda function created for Eventbridge and add trigger with Eve
 
 <img width="1038" height="471" alt="B-evntbrdg-09-S3-JPG-upload" src="https://github.com/user-attachments/assets/b1315b95-32cc-4978-b339-60418e5fffdf" />
 
-<img width="1186" height="928" alt="Screenshot from 2026-09-10 18-30-26" src="https://github.com/user-attachments/assets/4f3fe2b3-3221-4fea-88a2-57a84849b58e" />
