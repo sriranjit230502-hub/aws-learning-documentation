@@ -1,4 +1,4 @@
-# AWS Lab 01 — VPC Network Configuration (End to End)
+# AWS VPC Network Configuration (End to End)
 
 **Step 1**
 
