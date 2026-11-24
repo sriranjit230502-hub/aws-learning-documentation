@@ -1,4 +1,4 @@
-# AWS Lab 02 — EC2 Instance Configuration
+# AWS EC2 Instance Configuration
 
 ## 1. AWS EC2 Instance Creation – Ubuntu
 
