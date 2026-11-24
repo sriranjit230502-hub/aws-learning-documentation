@@ -9,13 +9,13 @@ This repository contains step-by-step notes covering AWS service configuration, 
 
 - **Compute:** [Amazon EC2](AWS-Lab-02-"EC2-Instance-Configuration".md), [Auto Scaling](AWS-Lab-09-"Auto-Scaling-End-to-End".md), [Elastic Beanstalk](AWS-Lab-14-"Elastic-Beanstalk".md)
 - **Networking:** [Amazon VPC](AWS-Lab-01-"VPC-Network-Configuration".md), [Elastic IP](AWS-Lab-04-"Elastic-IP-Creation-&-Association".md), [Elastic Load Balancing](AWS-Lab-08-"Elastic-Loadbalancer-Creation-&-Implementation".md)
-- **Storage:** Amazon S3, EBS, EFS
-- **Databases:** Amazon RDS, DynamoDB
-- **Security:** AWS IAM
-- **Monitoring:** Amazon CloudWatch, Amazon SNS
-- **Content Delivery:** Amazon CloudFront
-- **Infrastructure as Code:** AWS CloudFormation
-- **Serverless & Event-driven Services:** AWS Lambda, Amazon EventBridge
+- **Storage:** [Amazon S3](AWS-Lab-06-"S3-Bucket-Creation-&-Basic-Functions".md), [EFS](AWS-Lab-05-"EFS-Creation-&-Attach-to-an-Instance".md)
+- **Databases:** [Amazon RDS](AWS-Lab-10-"RDS-Database-&-Snapshot-Creation".md), [DynamoDB](AWS-Lab-11-"Dynamo-DB-Creation-&-functioning-using-AWSCLI".md)
+- **Security:** [AWS IAM](AWS-Lab-03-"IAM-User-Groups-Role-Policy-AWSCLI".md)
+- **Monitoring:** [Amazon CloudWatch, Amazon SNS](AWS-Lab-13-"AWS-CloudWatch-SNS-EBS-Monitoring-Alert-Notification".md)
+- **Content Delivery:** [Amazon CloudFront](AWS-Lab-07-"AWS-S3-Static-Web-Hosting-&-Cloudfront".md)
+- **Infrastructure as Code:** [AWS CloudFormation](AWS-Lab-12-"AWS-CloudFormation-VPC-Setup-using-YAML".md)
+- **Serverless & Event-driven Services:** [AWS Lambda, Amazon EventBridge](AWS-Lab-15-"AWS-Lambda-&-Eventbridge".md)
 
 ## Tools & Technologies
 
