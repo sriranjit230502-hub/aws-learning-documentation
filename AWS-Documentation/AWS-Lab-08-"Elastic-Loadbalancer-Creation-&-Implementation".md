@@ -1,4 +1,4 @@
-# AWS Load Balancer Creation
+# AWS Elastic Load Balancer Creation & Implementation
 
 ## Target Group Creation
 
