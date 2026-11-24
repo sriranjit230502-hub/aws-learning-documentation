@@ -7,8 +7,8 @@ This repository contains step-by-step notes covering AWS service configuration, 
 
 ## Topics Covered
 
-- **Compute:** [Amazon EC2](AWS-Lab-02-"EC2-Instance-Configuration".md), [Auto Scaling](AWS-Lab-09-"Auto-Scaling-End-to-End".md), [Elastic Beanstalk](AWS-Lab-08-"Elastic-Loadbalancer-Creation-&-Implementation".md)
-- **Networking:** Amazon VPC, Elastic IP, Elastic Load Balancing
+- **Compute:** [Amazon EC2](AWS-Lab-02-"EC2-Instance-Configuration".md), [Auto Scaling](AWS-Lab-09-"Auto-Scaling-End-to-End".md), [Elastic Beanstalk](AWS-Lab-14-"Elastic-Beanstalk".md)
+- **Networking:** [Amazon VPC](AWS-Lab-01-"VPC-Network-Configuration".md), [Elastic IP](AWS-Lab-04-"Elastic-IP-Creation-&-Association".md), [Elastic Load Balancing](AWS-Lab-08-"Elastic-Loadbalancer-Creation-&-Implementation".md)
 - **Storage:** Amazon S3, EBS, EFS
 - **Databases:** Amazon RDS, DynamoDB
 - **Security:** AWS IAM
