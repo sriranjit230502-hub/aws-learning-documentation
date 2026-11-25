@@ -124,16 +124,16 @@ Create Launch Template with OS, instance type, keypair, security group chose, un
 - Open **EC2 → Launch Templates** and click **Create launch template**.
   - Enter the launch template name and description.
   - Select the operating system / AMI.
-  - Screenshot: Page 14
+<img width="1073" height="808" alt="H-launchTemp-01" src="https://github.com/user-attachments/assets/425add09-0ae4-43d8-a2ee-97412542f519" />
 
 - Under **Instance type**, select the required instance type.
 - Under **Key pair (login)**, select the key pair.
 - Under **Network settings**, select the security group `swh-ec2-sg`.
-  - Screenshot: Page 15 (top)
+<img width="1063" height="798" alt="H-launchTemp-02" src="https://github.com/user-attachments/assets/689a15cb-7665-4ece-abbf-bb847ca2f30d" />
 
 - Under **Advanced details**:
   - Select the IAM role created as the IAM instance profile.
-  - Screenshot: Page 15 (bottom)
+<img width="1070" height="317" alt="H-launchTemp-03" src="https://github.com/user-attachments/assets/72627231-e7c4-4275-8e55-e468157099fc" />
 
 - Under **User data**, add the following script.
 
@@ -174,7 +174,10 @@ systemctl restart nginx
 
 - Click **Create launch template**.
   - Verify that the launch template has been created.
-  - Screenshot: Page 16
+<img width="1069" height="780" alt="H-launchTemp-04" src="https://github.com/user-attachments/assets/d0c29265-78e5-4678-99c0-d12e0a2affbf" />
+
+<img width="1075" height="342" alt="H-launchTemp-05" src="https://github.com/user-attachments/assets/54ea2048-7338-4ab4-9437-db2b58556d9c" />
+
 
 ### Step 5
 
@@ -182,37 +185,41 @@ Create the Auto scaling group, with the launch template created, select private 
 
 - Open **EC2 → Auto Scaling Groups** and click **Create Auto Scaling group**.
   - Select the launch template created.
-  - Screenshot: Page 17 (top)
 
 - Under **Choose instance launch options**:
   - Select the VPC created.
   - Select the two private subnets.
-  - Screenshot: Page 17 (top)
+<img width="1073" height="724" alt="H-ASG-01" src="https://github.com/user-attachments/assets/8fac3be6-ecc9-4976-9710-2bbd2d86748b" />
 
 - Under **Integrate with other services**:
   - Attach the Application Load Balancer created.
   - Select the target group created.
   - Configure health checks.
-  - Screenshot: Page 17 (bottom)
+<img width="1068" height="501" alt="H-ASG-02" src="https://github.com/user-attachments/assets/1e68b6fe-8cb7-4e31-9274-cee803412a08" />
 
 - Under **Configure group size and scaling policies**:
   - Configure the desired, minimum and maximum capacity.
   - Configure the target tracking scaling policy.
-  - Screenshot: Page 18 (top)
+<img width="1067" height="649" alt="H-ASG-03" src="https://github.com/user-attachments/assets/d4e59208-8e2c-40ef-a9fa-e2972da610bb" />
 
 - Under **Add notifications**:
   - Select the existing SNS topic.
   - Configure the required event types.
-  - Screenshot: Page 18 (middle)
+<img width="832" height="391" alt="H-ASG-04" src="https://github.com/user-attachments/assets/cd9463fd-6033-4f34-bb7a-86c1a0f1dbc8" />
 
 - Review the Auto Scaling group configuration and click **Create Auto Scaling group**.
   - Verify that the EC2 instances are launched.
-  - Screenshot: Page 18 (bottom)
+<img width="1073" height="724" alt="H-ASG-01" src="https://github.com/user-attachments/assets/8f94951a-4267-47ec-a0aa-c39f210c0af9" />
+
+<img width="1074" height="259" alt="I-ASG-EC2-01" src="https://github.com/user-attachments/assets/166acad6-398f-4db7-a0d4-767b942684f8" />
 
 - Open the Application Load Balancer and copy its DNS name.
   - Paste the DNS name into a web browser.
   - Verify that the website loads successfully.
-  - Screenshot: Page 19
+<img width="1092" height="323" alt="J-ALB-web-01" src="https://github.com/user-attachments/assets/8e962efb-4a72-4881-940a-10126346ce77" />
+
+<img width="1096" height="998" alt="J-ALB-web-02" src="https://github.com/user-attachments/assets/14a90b40-867b-41e4-b699-af9c253762c5" />
+
 
 ### Step 6
 
@@ -220,9 +227,9 @@ Create Cloudwatch Alarms for the Auto scaling group metrics and create a dashboa
 
 - Open **CloudWatch → Alarms** and create alarms for the Auto Scaling group metrics.
   - Verify that the alarms are created.
-  - Screenshot: Page 20 (top)
+<img width="1090" height="410" alt="K-Cwatch-alarm-01" src="https://github.com/user-attachments/assets/3bca4968-b886-4695-a772-9ff0badf5a9f" />
 
 - Navigate to **CloudWatch → Dashboards**.
   - Create a dashboard for the Auto Scaling group metrics.
   - Verify that the dashboard is created.
-  - Screenshot: Page 20 (bottom)
+<img width="1073" height="390" alt="K-Cwatch-dashb-01" src="https://github.com/user-attachments/assets/19f1ebed-d771-439e-b20e-1c10656d8135" />
