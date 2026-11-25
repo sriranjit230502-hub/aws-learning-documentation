@@ -6,32 +6,37 @@ Create an S3 bucket, upload an index.html file and enable static web hosting.
 
 - Open **Amazon S3 → General purpose buckets** and click **Create bucket**.
   - Select **Account Regional namespace** and enter the bucket name.
-  - Screenshot: Page 1–2
+<img width="1109" height="1001" alt="A-S3-01" src="https://github.com/user-attachments/assets/3c48eaad-98dc-4e70-af91-bdc2dfb81b78" />
+
+<img width="1081" height="614" alt="A-S3-02" src="https://github.com/user-attachments/assets/7b1930dd-c95a-475c-8621-00a750655bb5" />
+
 
 - Under **Object Ownership**, select **ACLs enabled** and **Bucket owner preferred**.
 - Under **Block Public Access settings**, uncheck **Block all public access** and acknowledge the warning.
-  - Screenshot: Page 2
-
 - Under **Bucket Versioning**, select **Disable**.
+<img width="1085" height="785" alt="A-S3-03" src="https://github.com/user-attachments/assets/3f1fec69-fe8e-4d10-9cec-1e48a03241c9" />
+
+
 - Under **Default encryption**, select **Server-side encryption with Amazon S3 managed keys (SSE-S3)**.
 - Keep **Object Lock** disabled.
-  - Screenshot: Page 3
-
 - Click **Create bucket**.
+  <img width="1063" height="709" alt="A-S3-04" src="https://github.com/user-attachments/assets/fe6609cd-14d0-4ffd-8924-2a3b013ea341" />
+ 
 - Open the created bucket, click **Upload**, select the `index.html` file and upload it.
-  - Screenshot: Page 4
+  <img width="1109" height="1001" alt="A-S3-05" src="https://github.com/user-attachments/assets/98a3110f-ecf5-4ada-9afd-ee73148b0c97" />
+
 
 - Navigate to the bucket's **Properties** tab and open **Static website hosting → Edit**.
-  - Screenshot: Page 5
+  <img width="1109" height="1001" alt="A-S3-06" src="https://github.com/user-attachments/assets/822d7be0-017a-4d42-888e-96a7a05d6d74" />
 
 - Enable **Static website hosting**.
 - Select **Host a static website** as the hosting type.
 - Enter `index.html` as the Index document and save the changes.
-  - Screenshot: Page 6 (top)
+ <img width="961" height="690" alt="A-S3-07" src="https://github.com/user-attachments/assets/efa41200-939a-4c11-b6d3-6d9acb6b722c" />
 
 - Open the uploaded `index.html` file and navigate to the **Permissions** tab.
 - Under **Access control list (ACL)**, grant **Everyone (public access)** Read permission.
-  - Screenshot: Page 6 (bottom)
+<img width="1096" height="458" alt="A-S3-08" src="https://github.com/user-attachments/assets/90a86d82-fd5d-4968-9763-5b6f1368a567" />
 
 ### Step 2
 
