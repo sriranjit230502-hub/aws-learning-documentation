@@ -49,45 +49,44 @@ Create a bucket, upload the html file, enable Static Webhosting and make it publ
 Create a VPC, two public & private subnets, public & private route tables, internet gateway for public subnets and NAT gateway for private subnets. Attach VPC to the gateway, edit subnet associations in respective route tables and attach NAT gateway to private route table, and attach Internet gateway to public route tables. Now create two security groups - one for Application load balancer and one for Auto Scaling group. In Security group swh-alb-sg, add HTTP as inbound rule, and in swh-ec2-sg, add HTTP, NFS, SSH as inbound rules.
 
 - Open **Amazon VPC → Your VPCs** and create a VPC.
-  - Screenshot: Page 6 (first screenshot)
+<img width="1076" height="234" alt="D-VPC-01" src="https://github.com/user-attachments/assets/6278e81d-7d01-4feb-94d1-ff976c0cb7bf" />
 
 - Create two public and two private subnets in the VPC.
-  - Screenshot: Page 6 (second screenshot)
+<img width="1077" height="288" alt="D-VPC-02" src="https://github.com/user-attachments/assets/a48b8d2a-4c20-4ae9-a7d6-9213c5df2de3" />
 
 - Create public and private route tables.
-  - Screenshot: Page 6 (third screenshot)
+<img width="1074" height="204" alt="D-VPC-03" src="https://github.com/user-attachments/assets/7a2342e4-95a5-4d30-a394-d53ae8ad0149" />
 
 - Create an Internet Gateway and attach it to the VPC.
-  - Screenshot: Page 7 (top)
+<img width="1070" height="223" alt="D-VPC-04" src="https://github.com/user-attachments/assets/108933c8-aacc-4429-93b5-9113880f3a9c" />
 
 - Create a NAT Gateway.
   - Select the VPC created.
   - Select **Public** as the connectivity type.
   - Select the Elastic IP allocation option.
-  - Screenshot: Page 7 (middle)
+<img width="1067" height="759" alt="D-VPC-05" src="https://github.com/user-attachments/assets/48c14ebc-ea7b-46ef-ae9d-3f8ff09a5fa5" />
 
 - Verify that the NAT Gateway is created.
-  - Screenshot: Page 7 (bottom)
+<img width="1074" height="334" alt="D-VPC-06" src="https://github.com/user-attachments/assets/d16463d4-d85f-461c-bfcb-a52dfb1800a9" />
 
 - Create a VPC endpoint.
   - Verify that the endpoint is available.
-  - Screenshot: Page 8
+<img width="1069" height="646" alt="D-VPC-07" src="https://github.com/user-attachments/assets/e28fe665-03ef-42d3-a6ac-8bf4c9d3ac78" />
 
 - Edit the subnet associations in the respective route tables.
   - Attach the NAT Gateway to the private route table.
   - Attach the Internet Gateway to the public route table.
-  - Screenshot: Page 6 (third screenshot) and Page 7 (bottom)
 
 - Create the security group `swh-alb-sg`.
   - Add HTTP as the inbound rule.
-  - Screenshot: Page 9
+<img width="1080" height="992" alt="E-SG-01" src="https://github.com/user-attachments/assets/a82035a3-8a54-40c8-9ab0-8df49bda12d1" />
 
 - Create the security group `swh-ec2-sg`.
   - Add HTTP, NFS and SSH as inbound rules.
-  - Screenshot: Page 10 (top)
+<img width="1080" height="992" alt="E-SG-02" src="https://github.com/user-attachments/assets/1c5d6976-f107-4fdd-b226-c279991707d5" />
 
 - Verify that both security groups have been created.
-  - Screenshot: Page 10 (bottom)
+<img width="1072" height="431" alt="E-SG-03" src="https://github.com/user-attachments/assets/2e5ec15e-d439-4b13-87b1-cea63d707bbd" />
 
 ### Step 3
 
@@ -99,7 +98,7 @@ Create an IAM role ec3-s3-role, with S3FullAccess as IAM policy to EC2 service. 
   - Port: **80**
   - Protocol: **HTTP**
   - Target type: **Instances**
-  - Screenshot: Page 11 (top)
+<img width="1074" height="207" alt="F-targrp-01" src="https://github.com/user-attachments/assets/0fa3c403-0095-4643-8e46-31fc988070d6" />
 
 - Navigate to **EC2 → Load balancers** and create an Application Load Balancer.
   - Scheme: **Internet-facing**
@@ -107,16 +106,16 @@ Create an IAM role ec3-s3-role, with S3FullAccess as IAM policy to EC2 service. 
   - Select the VPC created.
   - Select the required Availability Zones and public subnets.
   - Attach the target group created.
-  - Screenshot: Page 11 (bottom)
+<img width="1076" height="211" alt="F-ALB-02" src="https://github.com/user-attachments/assets/42ade689-9f7e-4b46-83c0-3476c3fa5838" />
 
 - Open **IAM → Roles** and create the IAM role `ec3-s3-role`.
   - Select **EC2** as the trusted entity/service.
   - Attach the **AmazonS3FullAccess** policy.
-  - Screenshot: Page 12 (top)
+<img width="1080" height="992" alt="G-IAM-role-01" src="https://github.com/user-attachments/assets/fc8e011e-f070-4bfa-93d1-73480ccd9a20" />
 
 - Open **Amazon EFS → File systems** and create an EFS file system.
   - Verify that the file system is available.
-  - Screenshot: Page 12 (bottom)
+<img width="1062" height="279" alt="G-EFS-01" src="https://github.com/user-attachments/assets/82e5c140-2181-4a89-af38-a7c354eb0041" />
 
 ### Step 4
 
