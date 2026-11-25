@@ -5,37 +5,44 @@
 Create a bucket, upload the html file, enable Static Webhosting and make it publicly readable. Create a cloudfront distribution for the S3 bucket created and verify its connection. Create a SNS subscription with existing topic to the mail id as protocol.
 
 - Open **Amazon S3 → General purpose buckets** and click **Create bucket**.
-  - Screenshot: Page 1
+<img width="1109" height="1001" alt="A-S3-01" src="https://github.com/user-attachments/assets/dd1da4de-bf67-480b-87b0-14eae77ef615" />
 
 - Open the created bucket and click **Upload**.
   - Select the HTML file and upload it.
-  - Screenshot: Page 2
+ <img width="1109" height="1001" alt="A-S3-05" src="https://github.com/user-attachments/assets/d5d17e33-46e9-4928-be6e-7afb1ef5aaf1" />
 
 - Navigate to the bucket's **Properties** tab and open **Static website hosting → Edit**.
   - Enable Static website hosting.
   - Select **Host a static website**.
   - Enter the index document.
   - Save the changes.
-  - Screenshot: Page 3 (top)
+<img width="961" height="690" alt="A-S3-07" src="https://github.com/user-attachments/assets/46b58a10-c5e8-4f4e-8f87-f80aa52d47bb" />
 
 - Open the uploaded HTML file and navigate to the **Permissions** tab.
   - Under **Access control list (ACL)**, grant **Everyone (public access)** Read permission.
-  - Screenshot: Page 3 (bottom)
+<img width="1096" height="458" alt="A-S3-08" src="https://github.com/user-attachments/assets/3ff07d10-a77d-4cf8-ba66-bee3f6cd501e" />
 
 - Open **Amazon CloudFront → Distributions** and click **Create distribution**.
   - Create a distribution for the S3 static website.
-  - Screenshot: Page 4 (top)
+ <img width="1109" height="1001" alt="A-CF-01-" src="https://github.com/user-attachments/assets/94d057a7-7ef9-4f3c-8cd3-0f775cf74b6b" />
 
 - Verify that the CloudFront distribution is created.
   - Copy the CloudFront DNS name and open it in a browser.
   - Verify the website connection.
-  - Screenshot: Page 4 (bottom) and Page 5 (top)
+ <img width="1082" height="579" alt="A-CF-06" src="https://github.com/user-attachments/assets/fffdd297-b42d-4e75-9002-a0db51461448" />
+
+ <img width="1109" height="1001" alt="A-CF-07" src="https://github.com/user-attachments/assets/50befb1c-f499-4eaf-a44b-d1ca0b8fc812" />
+
 
 - Open **Amazon SNS → Subscriptions**.
   - Create a subscription using the existing SNS topic.
   - Select **Email** as the protocol and provide the email ID as the endpoint.
   - Verify the subscription status.
-  - Screenshot: Page 5 (bottom) and Page 6 (top)
+<img width="1068" height="481" alt="B-SNS-03" src="https://github.com/user-attachments/assets/d1783fa8-b549-47fd-a2f5-325766bf19ac" />
+
+<img width="1077" height="197" alt="B-SNS-05" src="https://github.com/user-attachments/assets/2442d853-7dad-41dc-86bb-7562c14387dd" />
+
+
 
 ### Step 2
 
