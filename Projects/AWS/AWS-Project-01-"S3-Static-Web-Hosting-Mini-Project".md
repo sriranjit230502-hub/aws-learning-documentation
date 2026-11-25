@@ -144,10 +144,10 @@ Create a Cloudwatch Alarm for the cloudfront - the metrics for cloudfront are av
 - Navigate to **CloudWatch → Dashboards**.
 - Open the dashboard `SWH-Cloudfront-01`.
 - Add a widget for the CloudFront **Requests** metric and save the dashboard.
-<img width="1073" height="354" alt="C-Cwatch-10" src="https://github.com/user-attachments/assets/952ef8a0-2851-4eb4-b4c0-8ce263d82edd" />
+<img width="1080" height="1001" alt="C-Cwatch-11" src="https://github.com/user-attachments/assets/abe86ae9-65c4-4193-b332-9d248ae9c15a" />
 
 - Verify the CloudWatch alarm notification received through email.
-<img width="1080" height="1001" alt="C-Cwatch-11" src="https://github.com/user-attachments/assets/abe86ae9-65c4-4193-b332-9d248ae9c15a" />
+<img width="1073" height="354" alt="C-Cwatch-10" src="https://github.com/user-attachments/assets/952ef8a0-2851-4eb4-b4c0-8ce263d82edd" />
 
 <img width="1316" height="969" alt="Cloudwatch-cloudfront-notification" src="https://github.com/user-attachments/assets/0bcc0e8e-221b-468c-a9e0-ded43a9e96b8" />
 
